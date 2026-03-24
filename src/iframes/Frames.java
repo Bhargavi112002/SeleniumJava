@@ -15,7 +15,7 @@ public class Frames {
 	@Test
 	public void frameshandles() throws InterruptedException {
 		driver.get("https://www.w3schools.com/js/tryit.asp?filename=tryjs_alert");
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(50));
 
 		
 	//	WebElement obj = driver.findElement(By.xpath("//*[@id=\"iframeResult\"]"));
@@ -42,7 +42,7 @@ public class Frames {
 		driver.get("https://www.techlearn.in/admin");
 		Thread.sleep(2000);
 		driver.switchTo().frame(1); //NoSuchFrameException: no such frame
-		driver.findElement(By.xpath("//*[@id=\"user_login\"]")).sendKeys("Test");
+		driver.findElement(By.xpath("//*[@id=\"user_login\"]")).sendKeys("MDemo");
 		
 	
 	}
