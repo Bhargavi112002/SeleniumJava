@@ -12,7 +12,7 @@ public class GoogleSearch {
 	@Test
 	public void search() {
 		driver.get("https://www.google.com");
-		driver.findElement(By.name("q")).sendKeys("Selenium");
+		driver.findElement(By.name("q")).sendKeys("Selenium with Java");
 	}
 
 	@BeforeTest
