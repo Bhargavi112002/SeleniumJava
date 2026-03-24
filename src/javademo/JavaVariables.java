@@ -3,7 +3,7 @@ package javademo;
 public class JavaVariables {
 	
 	public static void main(String[] args) {
-		System.out.println("!@#$$$$$%^1342567DFGHJ texdcfghvjc");
+		System.out.println("XYZ");
 		System.out.println("B");
 		System.out.println("8");
 		System.out.println("%");
