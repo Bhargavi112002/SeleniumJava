@@ -36,7 +36,7 @@ public class PopupAlerts {
 		Thread.sleep(3000);
 		
 		Alert a = driver.switchTo().alert();
-		a.sendKeys("Bhargavi");
+		a.sendKeys("Girish Kumar");
 		a.accept();
 		
 	//	driver.switchTo().alert().sendKeys("Girish");
