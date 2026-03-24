@@ -9,7 +9,7 @@ public class NewTestDemo {
 	WebDriver driver;
   @Test
   public void facebook() {
-	  driver.get("");
+	  driver.get("https://www.facebook.com");
   }
   @BeforeTest
   public void beforeTest() {
