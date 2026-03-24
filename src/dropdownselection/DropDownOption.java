@@ -18,7 +18,7 @@ public class DropDownOption {
 		Thread.sleep(3000);
 		Select obj = new Select(driver.findElement(By.xpath("//*[@id=\"user_language\"]")));
 	//	obj.selectByContainsVisibleText("Ru");
-		obj.selectByIndex(10);
+		obj.selectByIndex(1);
 	//	obj.selectByValue("ja");
 	//	obj.selectByVisibleText("Hungarian (Magyar)");
 	}
