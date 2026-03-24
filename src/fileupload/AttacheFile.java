@@ -13,7 +13,7 @@ public class AttacheFile {
 	public void fileattach() throws InterruptedException {
 		driver.get("https://www.w3schools.com/howto/howto_html_file_upload_button.asp");
 		Thread.sleep(5000);
-		driver.findElement(By.xpath("//*[@id=\"myFile\"]")).sendKeys("C:\\Users\\LENOVO\\Documents\\madhu_dba5.pdf");
+		driver.findElement(By.xpath("//*[@id=\"myFile\"]")).sendKeys("C:\\Users\\Mbhargavi\\Documents\\madhu_dba5.pdf");
 	}
 
 	@BeforeTest
