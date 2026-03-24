@@ -25,7 +25,7 @@ class SeleniumLocators {
 	void googlesearch() throws InterruptedException {
 		driver.get("https://www.google.com");
 		Thread.sleep(3000);
-		driver.findElement(By.name("q")).sendKeys("Bhargavi M");
+		driver.findElement(By.name("q")).sendKeys("GitHub");
 		
 	}
 	@Disabled

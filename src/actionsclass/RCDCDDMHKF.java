@@ -67,7 +67,7 @@ public class RCDCDDMHKF {
 		Thread.sleep(3000);
 		
 		Actions act = new Actions(driver);
-		act.sendKeys(Keys.ENTER).build().perform();
+		act.sendKeys(Keys.TAB).build().perform();
 		
 				
 		
