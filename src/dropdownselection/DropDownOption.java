@@ -17,8 +17,8 @@ public class DropDownOption {
 		driver.findElement(By.xpath("//*[@id=\"user_mail\"]")).sendKeys("bhargavi@gmail.com");
 		Thread.sleep(3000);
 		Select obj = new Select(driver.findElement(By.xpath("//*[@id=\"user_language\"]")));
-		obj.selectByContainsVisibleText("Ru");
-	//	obj.selectByIndex(7);
+	//	obj.selectByContainsVisibleText("Ru");
+		obj.selectByIndex(10);
 	//	obj.selectByValue("ja");
 	//	obj.selectByVisibleText("Hungarian (Magyar)");
 	}
