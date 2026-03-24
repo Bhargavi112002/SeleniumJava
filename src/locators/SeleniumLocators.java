@@ -32,9 +32,9 @@ class SeleniumLocators {
 	@Test
 	void idnameclassname() throws InterruptedException {
 		driver.get("https://www.techlearn.in/admin");
-		driver.findElement(By.id("user_login")).sendKeys("bhargavi");
+		driver.findElement(By.id("user_login")).sendKeys("purushothamk");
 		Thread.sleep(2000);
-		driver.findElement(By.name("pwd")).sendKeys("1234");
+		driver.findElement(By.name("pwd")).sendKeys("Test@1234");
 		Thread.sleep(2000);
 		driver.findElement(By.id("rememberme")).click();
 		Thread.sleep(2000);
@@ -44,7 +44,7 @@ class SeleniumLocators {
 	@Test
 	void cssselectorlocator() throws InterruptedException {
 		driver.get("https://www.techlearn.in/admin");
-		driver.findElement(By.cssSelector("#user_login")).sendKeys("mbhargavi");
+		driver.findElement(By.cssSelector("#user_login")).sendKeys("girishm");
 		driver.findElement(By.cssSelector("input#user_pass")).sendKeys("Test@123");
 		driver.findElement(By.cssSelector("a.button button-primary button-large")).click();
 	//	driver.findElement(By.cssSelector(".wp-login-lost-password")).click();
