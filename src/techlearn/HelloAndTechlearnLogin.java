@@ -12,8 +12,8 @@ public class HelloAndTechlearnLogin {
 	@Test
 	public void techlearnlogin() {
 		driver.get("https://www.techlearn.in/admin");
-		driver.findElement(By.id("user_login")).sendKeys("bhargavi");
-		driver.findElement(By.name("pwd")).sendKeys("1234");
+		driver.findElement(By.id("user_login")).sendKeys("girish");
+		driver.findElement(By.name("pwd")).sendKeys("Hello@12345");
 		driver.findElement(By.id("rememberme")).click();
 		driver.findElement(By.className("wp-login-lost-password")).click();
 		driver.findElement(By.id("user_login")).sendKeys("bhargavi123@gmail.com");
